@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+	max-width:2046 px;
+	padding: 0;
+	margin-left: 2px;
+	margin-right: 0px;
+	font-family: arial;
+}
+
+
+
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%
+	}
+	70%{
+		left: -200%;
+	}
+	75%
+	{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+	#slider{
+		overflow: hidden;
+	}
+	
+	#slider figure img{
+		width: 20%;
+		float: left;
+	}
+	#slider figure{
+		position: relative;
+		width: 500%;
+		margin: 0;
+		left: 0;
+		text-align: left;
+		font-size: 0;
+		animation: 20s slider infinite;
+	}
+*{
+			padding: 1px;
+			margin: 0;
+		}
+		nav{
+			background-color: black;
+			height: 50px;
+			padding: 2px;
+		
+		}
+nav ul{
+	border: 1px solid red;
+	height: 50px;
+}
+		nav ul li{
+			list-style-type: none;
+			width: 300px;
+			float: left;
+			border-right: 1px solid #CCC;
+			text-align: center;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: white;
+			line-height: 50px;
+			display: block;
+			
+		}
+		li a:hover{
+			background-color: blue;
+		}
+		nav{
+			background-color: black;
+			height: 50px;
+		}
+		nav ul li{
+			list-style-type: none;
+			width: 150px;
+			float: left;
+			border-right: 0.5px solid #CCC;
+			text-align: center;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: white;
+			line-height: 40px;
+			display: block;
+			padding: 4px;
+			width:inherit;
+		}
+		li a:hover{
+			background-color: blue;
+		}
+footer{
+	text-align: center;
+	padding-top: 15px;
+}
+dir{
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: black;
+	font-size: 25px;
+	padding-top: 6px;
+	margin: 2px;
+
+}
+div{
+	font-size: 20px;
+	font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: black;
+	margin: 2px;
+	padding-top: 6px;
+}
+.CTA{
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+}
+.CTA hover{
+	background-color: darkslategrey;
+}
+
+.img1{
+	float: right;
+	
+}
+.img2{
+	float: right;
+}
+.signupemail{
+	text-align: center;
+	font-size: 30px;
+	color: blue;
+	padding-top: 3px;
+}
+h1{
+	padding-top: 8px;
+}
+.text1{
+	font-style: italic;
+	font-size: 16px;
+}
+.trainer1{
+	padding-top: 10px;
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.trainer2{
+	padding-top: 10px;
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.trainer3{
+	padding-top: 10px;
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+
+}
+.link1{
+	padding-top: 2px;
+}
+.link2{
+	padding-top: 10px;
+
+}
+.link3{
+	padding-top: 10px;
+}
+.link4{
+	padding-top: 10px;
+}
+.img3{
+	float:right;
+}
+.announce{
+	padding-top: 20px;
+}
+.img5{
+	float:right;
+}
+.phone{
+	font-size: 30px;
+	padding-top: 30px;
+}
+.fax{
+	font-size: 30px;
+	padding-top: 10px;
+}
+.email{
+	font-size: 30px;
+	padding-top: 10px;
+}
+.address{
+	font-size: 30px;
+	
+}
